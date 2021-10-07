@@ -18,7 +18,7 @@ pipeline {
     stage('Cloning Code From Git') {
       steps{
         git branch: 'main',
-        url: 'https://github.com/JHigz/CyberSecuritySparta/tree/calc_full_infra/calc_full_infra'
+        url: 'https://github.com/JHigz/Calc_Full_Infra'
       }
 
     }
