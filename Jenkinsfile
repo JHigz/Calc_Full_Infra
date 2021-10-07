@@ -2,7 +2,7 @@ pipeline {
 
   environment {
   PROJECT_DIR = "/app"
-  REGISTRY = "jhsparta/new_calc"
+  REGISTRY = "jhsparta/new_calc" + ":" + "$BUILD_NUMBER"
   DOCKER_CREDENTIALS = "Docker_Auth"
   DOCKER_IMAGE = ""
   }
