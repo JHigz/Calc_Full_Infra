@@ -9,3 +9,4 @@ def test_func_2():
 
 def test_func_3():
     assert 3==3, "Error: 3 should be equal to 3"
+#
